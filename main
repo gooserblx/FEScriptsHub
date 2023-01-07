@@ -1,0 +1,373 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local DropShadowHolder = Instance.new("Frame")
+local DropShadow = Instance.new("ImageLabel")
+local Topar = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local GoosesFEScriptHub = Instance.new("TextLabel")
+local TabHolder = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Main_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Settings = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Main_3 = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Settings_2 = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.Active = true
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
+Main.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Main.Position = UDim2.new(0, 514, 0, 309)
+Main.Size = UDim2.new(0, 400, 0, 300)
+Main.SizeConstraint = Enum.SizeConstraint.RelativeXX
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Main
+
+DropShadowHolder.Name = "DropShadowHolder"
+DropShadowHolder.Parent = Main
+DropShadowHolder.BackgroundTransparency = 1.000
+DropShadowHolder.BorderSizePixel = 0
+DropShadowHolder.Size = UDim2.new(1, 0, 1, 0)
+DropShadowHolder.ZIndex = 0
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = DropShadowHolder
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+DropShadow.Size = UDim2.new(1, 47, 1, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+Topar.Name = "Topar"
+Topar.Parent = Main
+Topar.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Topar.Size = UDim2.new(0, 400, 0, 27)
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = Topar
+
+Frame.Parent = Topar
+Frame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.666666687, 0)
+Frame.Size = UDim2.new(0, 400, 0, 9)
+
+GoosesFEScriptHub.Name = "Goose's FE Script Hub"
+GoosesFEScriptHub.Parent = Topar
+GoosesFEScriptHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GoosesFEScriptHub.BackgroundTransparency = 1.000
+GoosesFEScriptHub.Position = UDim2.new(0.0250000004, 0, 0, 0)
+GoosesFEScriptHub.Size = UDim2.new(0, 185, 0, 27)
+GoosesFEScriptHub.Font = Enum.Font.SourceSans
+GoosesFEScriptHub.Text = "Goose's FE Script Hub"
+GoosesFEScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+GoosesFEScriptHub.TextSize = 19.000
+GoosesFEScriptHub.TextXAlignment = Enum.TextXAlignment.Left
+
+TabHolder.Name = "Tab Holder"
+TabHolder.Parent = Main
+TabHolder.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+TabHolder.Position = UDim2.new(0.0524999984, 0, 0.843333364, 0)
+TabHolder.Size = UDim2.new(0, 358, 0, 31)
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = TabHolder
+
+Main_2.Name = "Main"
+Main_2.Parent = TabHolder
+Main_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Main_2.Position = UDim2.new(0.0893854797, 0, 0.129032254, 0)
+Main_2.Size = UDim2.new(0, 136, 0, 23)
+Main_2.Font = Enum.Font.SourceSans
+Main_2.Text = "Main"
+Main_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main_2.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 16)
+UICorner_4.Parent = Main_2
+
+Settings.Name = "Settings"
+Settings.Parent = TabHolder
+Settings.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Settings.Position = UDim2.new(0.522346377, 0, 0.129032254, 0)
+Settings.Size = UDim2.new(0, 136, 0, 23)
+Settings.Font = Enum.Font.SourceSans
+Settings.Text = "Settings"
+Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 16)
+UICorner_5.Parent = Settings
+
+Main_3.Name = "Main"
+Main_3.Parent = Main
+Main_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main_3.BackgroundTransparency = 1.000
+Main_3.Position = UDim2.new(0.0250000004, 0, 0.129999995, 0)
+Main_3.Size = UDim2.new(0, 380, 0, 202)
+
+ScrollingFrame.Parent = Main_3
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0, 0, -0.0594059415, 0)
+ScrollingFrame.Size = UDim2.new(0, 380, 0, 214)
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton.Position = UDim2.new(0.0289473683, 0, 0.0321782194, 0)
+TextButton.Size = UDim2.new(0, 347, 0, 31)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+TextButton.TextWrapped = true
+
+UICorner_6.Parent = TextButton
+
+TextLabel.Parent = TextButton
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0374639779, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 321, 0, 31)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "FE Little People"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 18.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_2.Position = UDim2.new(0.0289473683, 0, 0.153465346, 0)
+TextButton_2.Size = UDim2.new(0, 347, 0, 31)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 20.000
+TextButton_2.TextWrapped = true
+
+UICorner_7.Parent = TextButton_2
+
+TextLabel_2.Parent = TextButton_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0374639779, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 321, 0, 31)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "FE Quix Neko"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 18.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0769376606, 0, 0.264851481, 0)
+TextLabel_3.Size = UDim2.new(0, 321, 0, 31)
+TextLabel_3.Font = Enum.Font.SourceSansItalic
+TextLabel_3.Text = "More coming soon..."
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 18.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Settings_2.Name = "Settings"
+Settings_2.Parent = Main
+Settings_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings_2.BackgroundTransparency = 1.000
+Settings_2.Position = UDim2.new(0.0250000004, 0, 0.129999995, 0)
+Settings_2.Size = UDim2.new(0, 380, 0, 202)
+Settings_2.Visible = false
+
+TextButton_3.Parent = Settings_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextButton_3.Position = UDim2.new(0.0289473683, 0, 0.0148514807, 0)
+TextButton_3.Size = UDim2.new(0, 347, 0, 31)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 20.000
+TextButton_3.TextWrapped = true
+
+UICorner_8.Parent = TextButton_3
+
+TextLabel_4.Parent = TextButton_3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0374639779, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 321, 0, 31)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Press LeftAlt to toggle GUI"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 18.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function VCCBZD_fake_script() -- Topar.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Topar)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(VCCBZD_fake_script)()
+local function VMDMZET_fake_script() -- Main_2.LocalScript 
+	local script = Instance.new('LocalScript', Main_2)
+
+	local maincontainer = script.Parent.Parent.Parent.Main
+	local settingscontainer = script.Parent.Parent.Parent.Settings
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		maincontainer.Visible = true
+		settingscontainer.Visible = false
+	end)
+end
+coroutine.wrap(VMDMZET_fake_script)()
+local function DXFMHA_fake_script() -- Settings.LocalScript 
+	local script = Instance.new('LocalScript', Settings)
+
+	local maincontainer = script.Parent.Parent.Parent.Main
+	local settingscontainer = script.Parent.Parent.Parent.Settings
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		maincontainer.Visible = false
+		settingscontainer.Visible = true
+	end)
+	
+end
+coroutine.wrap(DXFMHA_fake_script)()
+local function RHKAYCU_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+			if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+				game:GetService("RunService").Heartbeat:connect(function()
+					v.Velocity = Vector3.new(0,35,0)
+					wait(0.5)
+				end)
+			end
+		end
+	
+		game:GetService("StarterGui"):SetCore("SendNotification", { 
+			Title = "Goose's FE Script Hub";
+			Text = "Loading little people...";
+			Icon = nil})
+		
+		wait(3)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/rouxhaver/scripts/main/FE%20little%20people.Lua'))()
+	end)
+end
+coroutine.wrap(RHKAYCU_fake_script)()
+local function PAJVS_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/gooserblx/nekofe/main/neko", true))()
+	end)
+end
+coroutine.wrap(PAJVS_fake_script)()
+local function BWDINFZ_fake_script() -- Main.Toggle 
+	local script = Instance.new('LocalScript', Main)
+
+	local frame = script.Parent
+	local hotkey = Enum.KeyCode.LeftAlt
+	
+	local UIS = game:GetService("UserInputService")
+	local open = false
+	UIS.InputBegan:Connect(function(key, gp)
+		if key.KeyCode == hotkey then
+			if UIS:GetFocusedTextBox() == nil then
+				if open == false then
+					open = true 
+					frame.Visible = open
+				elseif open == true then
+					open = false
+					frame.Visible = open
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(BWDINFZ_fake_script)()
